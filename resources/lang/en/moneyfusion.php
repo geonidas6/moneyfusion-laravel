@@ -1,0 +1,88 @@
+<?php
+
+return [
+    // Validation messages
+    'validation_total_price_required' => 'The total price is required.',
+    'validation_total_price_numeric' => 'The total price must be a number.',
+    'validation_total_price_min' => 'The total price must be positive.',
+    'validation_article_required' => 'Articles are required.',
+    'validation_article_array' => 'Articles must be an array.',
+    'validation_article_min' => 'You must add at least one article.',
+    'validation_numero_send_required' => 'The phone number is required.',
+    'validation_nom_client_required' => 'The client name is required.',
+
+    // Payment form
+    'payment_form_title' => 'Pay with MoneyFusion',
+    'payment_form_error_title' => 'Payment Error!',
+    'payment_form_error_generic' => 'An error occurred during the payment request. Please try again.',
+    'payment_form_total_price' => 'Total Price',
+    'payment_form_articles' => 'Articles (JSON)',
+    'payment_form_phone_number' => 'Phone Number',
+    'payment_form_client_name' => 'Client Name',
+    'payment_form_personal_info' => 'Personal Info (JSON, optional)',
+    'payment_form_pay_button' => 'Pay with MoneyFusion',
+
+    // Callback / Status
+    'callback_missing_token' => 'Payment token missing.',
+    'callback_status_success_title' => 'Payment Successful!',
+    'callback_status_success_message' => 'Your payment has been processed successfully.',
+    'callback_status_pending_title' => 'Payment Pending!',
+    'callback_status_pending_message' => 'Your payment is being processed. Please wait.',
+    'callback_status_failed_title' => 'Payment Failed!',
+    'callback_status_failed_message' => 'There was a problem with your payment: :message',
+    'callback_status_unknown_title' => 'Unknown Status',
+    'callback_status_unknown_message' => 'The status of your payment is unknown. Please check your transactions or contact support.',
+    'transaction_number' => 'Transaction Number',
+    'amount' => 'Amount',
+    'payment_method' => 'Payment Method',
+    'back_to_home' => 'Back to Home',
+
+    // Invoices
+    'invoices_title' => 'My MoneyFusion Transactions',
+    'invoices_no_transactions' => 'You don\'t have any transactions yet.',
+    'invoice_id' => 'Transaction ID',
+    'invoice_amount' => 'Amount',
+    'invoice_status' => 'Status',
+    'invoice_date' => 'Date',
+    'invoice_actions' => 'Actions',
+    'invoice_view_details' => 'View Details',
+    'invoice_download_button' => 'Download Invoice',
+    'invoice_details_title' => 'Transaction Details #:token',
+    'invoice_client' => 'Client',
+    'invoice_articles' => 'Articles',
+    'invoice_billing_error' => 'An invoice can only be generated for a successful payment.',
+    'invoice_number' => 'Invoice Number',
+    'invoice_date_issued' => 'Date Issued',
+    'invoice_payment_status' => 'Payment Status',
+    'invoice_mf_transaction_number' => 'MoneyFusion Transaction Number',
+    'invoice_description' => 'Description',
+    'invoice_unit_price' => 'Unit Price',
+    'invoice_quantity' => 'Quantity',
+    'invoice_total' => 'Total',
+    'invoice_subtotal' => 'Subtotal',
+    'invoice_fees' => 'Transaction Fees',
+    'invoice_total_paid' => 'Total Amount Paid',
+    'invoice_thank_you' => 'Thank you for your purchase!',
+    'invoice_generated_on' => 'Generated on',
+    'back_to_transactions' => 'Back to Transactions List',
+    'unauthorized_action' => 'Unauthorized action.',
+
+    // Webhook
+    'webhook_invalid_payload' => 'Invalid payload',
+    'webhook_transaction_created' => 'Transaction created and updated via webhook',
+    'webhook_redundant_event' => 'Event already processed or redundant',
+    'webhook_updated_status' => 'Webhook processed successfully',
+    'webhook_no_update_needed' => 'No status update needed',
+    'webhook_transaction_not_found' => 'Transaction with token :token not found during callback.',
+
+
+    // Email Notifications
+    'email_subject_success' => 'Your Payment for Transaction #:id is Successful',
+    'email_subject_failure' => 'Payment Failed for Transaction #:id',
+    'email_heading_success' => 'Payment Confirmation',
+    'email_heading_failure' => 'Payment Failure',
+    'email_body_success' => 'Hello :name, Your payment of :amount has been successfully processed.',
+    'email_body_failure' => 'Hello :name, We regret to inform you that your payment of :amount for transaction #:id has failed.',
+    'email_view_transaction' => 'View Transaction Details',
+    'email_regards' => 'Regards',
+];
