@@ -174,7 +174,7 @@ To add a new language, create a new directory (e.g., `es` for Spanish) and copy 
 
 ### 🤝 Contributing
 
-Contributions are welcome\! Please feel free to open an issue or submit a pull request on the [GitHub repository](https://www.google.com/search?q=https://github.com/your-vendor-name/moneyfusion-laravel).
+Contributions are welcome\! Please feel free to open an issue or submit a pull request on the [GitHub repository](https://www.google.com/search?q=https://github.com/geonidas6/moneyfusion-laravel).
 
 -----
 
@@ -186,6 +186,6 @@ The MoneyFusion Laravel package is open-source software licensed under the [MIT 
 
 ### 📧 Support
 
-If you encounter any issues or have questions, please open an issue on the [GitHub repository](https://www.google.com/search?q=https://github.com/your-vendor-name/moneyfusion-laravel/issues) or contact [your.email@example.com](mailto:your.email@example.com).
+If you encounter any issues or have questions, please open an issue on the [GitHub repository](https://www.google.com/search?q=https://github.com/your-vendor-name/moneyfusion-laravel/issues) or contact [your.email@example.com](mailto:patriceakotse61@gmail.com).
 
 -----

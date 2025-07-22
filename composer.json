@@ -1,5 +1,5 @@
 {
-  "name": "akotsepatrice/moneyfusion-laravel",
+  "name": "akotse-patrice/moneyfusion-laravel",
   "description": "A Laravel package for easy integration with MoneyFusion payment gateway.",
   "keywords": ["laravel", "moneyfusion", "payment", "gateway", "billing", "invoice"],
   "license": "MIT",
