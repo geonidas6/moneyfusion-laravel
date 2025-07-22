@@ -1,12 +1,12 @@
 {
-  "name": "your-vendor-name/moneyfusion-laravel",
+  "name": "akotsepatrice/moneyfusion-laravel",
   "description": "A Laravel package for easy integration with MoneyFusion payment gateway.",
   "keywords": ["laravel", "moneyfusion", "payment", "gateway", "billing", "invoice"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Your Name",
-      "email": "your.email@example.com"
+      "name": "Akotse Patrice",
+      "email": "patriceakotse61@gmail.com"
     }
   ],
   "require": {
