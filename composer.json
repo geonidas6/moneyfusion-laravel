@@ -1,0 +1,31 @@
+{
+    "name": "sefako/moneyfusion-laravel",
+    "description": "Un package Laravel pour intégrer le système de paiement MoneyFusion.",
+    "type": "laravel-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrice Akotse Kokou Edem",
+            "email": "patriceakotse61@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "spatie/laravel-package-tools": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sefako\\Moneyfusion\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sefako\\Moneyfusion\\MoneyfusionServiceProvider"
+            ],
+            "aliases": {
+                "Moneyfusion": "Sefako\\Moneyfusion\\Facades\\Moneyfusion"
+            }
+        }
+    }
+}

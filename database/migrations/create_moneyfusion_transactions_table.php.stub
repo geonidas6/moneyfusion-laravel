@@ -1,0 +1,27 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up()
+    {
+        Schema::create('moneyfusion_transactions', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null');
+            $table->string('token_pay')->unique();
+            $table->string('type'); // 'payment' or 'payout'
+            $table->string('status');
+            $table->string('numero_send');
+            $table->string('nom_client');
+            $table->integer('montant');
+            $table->integer('frais');
+            $table->string('moyen');
+            $table->string('numero_transaction')->nullable();
+            $table->json('personal_info')->nullable();
+            $table->timestamps();
+        });
+    }
+};
