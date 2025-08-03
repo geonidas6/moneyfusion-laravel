@@ -169,8 +169,6 @@ Les événements suivants sont gérés :
 -   `payout.session.cancelled`
 
 
-
-
 ## 📦 Publication des Ressources (Détaillée)
 
 Vous pouvez choisir de ne publier que certaines parties du package en utilisant les tags suivants :
