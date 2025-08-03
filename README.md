@@ -204,4 +204,4 @@ Ce package est distribué sous la licence MIT. Voir le fichier `LICENSE` pour pl
 
 ## 👏 Crédits
 
--   [Sefako](https://github.com/sefako)
+-   [Akotse Patrice](https://github.com/geonidas6)
