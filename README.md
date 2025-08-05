@@ -49,6 +49,7 @@ composer require sefako/moneyfusion-laravel
 
     Cette commande créera la table `moneyfusion_transactions` dans votre base de données.
 
+
     ```bash
     php artisan migrate
     ```
