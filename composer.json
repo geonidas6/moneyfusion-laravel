@@ -1,6 +1,7 @@
 {
     "name": "sefako/moneyfusion-laravel",
     "description": "Un package Laravel pour intégrer le système de paiement MoneyFusion.",
+    "keywords": ["laravel", "moneyfusion", "payment", "gateway", "billing", "invoice"],
     "type": "laravel-package",
     "license": "MIT",
     "authors": [
